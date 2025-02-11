@@ -1,3 +1,6 @@
-var derp = ['string,','string2'];
+import $ from "jquery";
+import "jquery-ui-dist/jquery-ui";
 
-console.log( derp.toString(' , ') )
+$(function () {
+  $("#draggable").draggable();
+});
